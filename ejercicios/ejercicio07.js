@@ -1,6 +1,6 @@
 //Calcular distancia entre ambos puntos y hacia el origen
 function distanciaPuntosOrigen (x1, y1, x2, y2) {
-    let distanciaEntrePuntos = Math.sqrt(Math.pow(x2-x1, 2) + Math.pow(y2 - y1));
+    let distanciaEntrePuntos = Math.sqrt(Math.pow(x2-x1, 2) + Math.pow(y2 - y1, 2));
     let distanciaOrigen1 = Math.sqrt(Math.pow(x1, 2) + Math.pow(y1, 2));
     let distanciaOrigen2 = Math.sqrt(Math.pow(x2, 2) + Math.pow(y2, 2));
 
