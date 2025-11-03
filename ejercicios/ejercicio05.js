@@ -12,7 +12,7 @@ function gradosARadianes (grados) {
 //Funcion de radianes a grados
 function radianesAGrados (radianes) {
     let grados = radianes * (180/Math.PI);
-    return radianes + "en grados " + grados;
+    return radianes + " en grados " + grados;
 }
 
 //Ingresar grados y mostrar
