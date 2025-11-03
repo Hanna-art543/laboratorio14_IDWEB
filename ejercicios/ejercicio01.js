@@ -15,3 +15,4 @@ alert("Redondeos"+
     "\nRedondeo hacia arriba: "+ arriba +
     "\nRedondeo normal: "+normal
 );
+
