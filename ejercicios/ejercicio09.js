@@ -42,7 +42,15 @@ class Producto {
     get nombre() {
         return this.#nombre;
     }
+
+    mostrarInfo() {
+    console.log(
+        "Producto: " + this.#nombre +
+        "\nPrecio: $" + this.#precio +
+        "\nStock: " + this.#stock
+    );
     
+    }
 }
 
 const p1 = new Producto("Laptop", 2500, 10);

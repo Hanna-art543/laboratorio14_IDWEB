@@ -65,16 +65,14 @@ class Administrador extends Usuario {
 
 //POLIMORFISMO
 
-//Creamos usuarios
 const usuario1 = new Cliente("Ana", "ana@gmail.com", 4);
 const usuario2 = new Administrador("Carlos", "admin@empresa.com");
 const usuario3 = new Cliente("Luz", "luz@gmail.com", 5);
 const usuario4 = new Administrador("Mario", "mario@empresa.com", ["editar", "eliminar"]);
 
-//Guardamos todos en una lista común
 const listaUsuarios = [usuario1, usuario2, usuario3, usuario4];
 
-//Recorremos la lista 
+//Recorremos 
 console.log("LISTA DE USUARIOS");
 
 for (let usuario of listaUsuarios) {

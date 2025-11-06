@@ -46,7 +46,8 @@ class Producto {
     }
     
     mostrarInfo() {
-        console.log("Producto: " + this.#nombre + " | Precio: " + this.#precio + " | Stock: " + this.#stock);
+        console.log("Producto: " + this.#nombre + " | Precio: " + this.#precio +
+             " | Stock: " + this.#stock);
     }
 }
 
