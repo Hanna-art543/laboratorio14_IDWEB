@@ -12,3 +12,4 @@ function distanciaPuntosOrigen (x1, y1, x2, y2) {
 };
 
 console.log(distanciaPuntosOrigen(3, 4, 5, 12));
+

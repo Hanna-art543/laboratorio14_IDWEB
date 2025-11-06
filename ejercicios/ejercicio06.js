@@ -9,3 +9,4 @@ function generarContrasena () {
 }
 
 alert("Contraseña: "+ generarContrasena());
+
